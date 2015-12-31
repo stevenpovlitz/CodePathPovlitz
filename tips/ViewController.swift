@@ -1,4 +1,3 @@
-//
 //  ViewController.swift
 //  tips
 //
@@ -10,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
     @IBOutlet weak var tipControl: UISegmentedControl!
     
     @IBOutlet weak var tipLabel: UILabel!
@@ -26,6 +27,8 @@ class ViewController: UIViewController {
         
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
+        
+        self.title = "Tip Calculator"
         
     }
 
