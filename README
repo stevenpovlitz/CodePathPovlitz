@@ -4,7 +4,11 @@
 
 Submitted by: **Steven Povlitz**
 
-Time spent: **2.5** hours spent in total
+Time spent: **5** hours spent in total
+
+## Programmer's Notes
+
+I've been working on this for a while, reading up on Swift and progress has been a little slow. After going through the walkthrough video I proceeded to try to implement the settings screen, and am having a lot of difficulty with this. As of now, the screen exists but is not allowing me to connect text fields to the source code. 
 
 ## User Stories
 
@@ -12,9 +16,9 @@ The following **required** functionality is complete:
 * [Y] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [N] Settings page to change the default tip percentage.
+* [Y] Settings page to change the default tip percentage.
 * [N] UI animations
-* [Y] Remembering the bill amount across app restarts (if <10mins)
+* [N] Remembering the bill amount across app restarts (if <10mins)
 * [N] Using locale-specific currency and currency thousands separators.
 * [N] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
@@ -26,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/YQDVJq3.gif' title='Video Walkthrough Povlitz' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/rRZg1gQ' title='Video Walkthrough Povlitz' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
